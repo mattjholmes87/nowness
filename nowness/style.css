@@ -452,7 +452,7 @@ li:hover > a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   margin: 20px;
 }
@@ -584,7 +584,7 @@ li:hover > a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     margin: 20px;
   }
@@ -592,7 +592,6 @@ li:hover > a {
     flex: 50%;
     max-width: 50%;
     padding: 15px;
-    height: 40vh;
   }
 }
 @media screen and (min-width: 800px) {
@@ -716,7 +715,7 @@ li:hover > a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     margin: 20px;
   }
@@ -724,7 +723,6 @@ li:hover > a {
     flex: 50%;
     max-width: 50%;
     padding: 15px;
-    height: 45vh;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -732,13 +730,12 @@ li:hover > a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
   }
   .column {
     flex: 25%;
     max-width: 25%;
     padding: 10px;
-    height: 40vh;
   }
 }
