@@ -17,9 +17,9 @@ h3 {
   line-height: 2.5rem;
 }
 h4 {
-  font-size: 2.6rem;
+  font-size: 1.8rem;
   font-weight: 200;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 0px;
   font-family: "Jost", sans-serif;
   line-height: 2.5rem;
@@ -27,7 +27,7 @@ h4 {
 p {
   font-size: 1.5rem;
   font-weight: 300;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 0px;
   font-family: "Jost", sans-serif;
   line-height: 2.5rem;
@@ -547,15 +547,15 @@ li:hover > a {
   align-items: center;
 }
 #email_address {
-  width: 400px;
+  width: 420px;
   height: auto;
   color: black;
   font-family: "Jost", sans-serif;
   font-weight: 300;
   font-size: 1.6rem;
   text-align: left;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
   padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -563,7 +563,7 @@ li:hover > a {
 }
 .subscribebutton1 {
   width: 400px;
-  margin: 10px;
+  margin: 20px;
   color: black;
   font-family: "Jost", sans-serif;
   font-weight: 300;
@@ -574,7 +574,7 @@ li:hover > a {
 }
 .subscribebutton2 {
   width: 400px;
-  margin: 10px;
+  margin: 0px;
   color: black;
   font-family: "Jost", sans-serif;
   font-weight: 300;
@@ -595,7 +595,7 @@ li:hover > a {
   padding-left: 50px;
   padding-right: 50px;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   background-color: white;
 }
 .subscribebutton3:hover {
@@ -730,6 +730,85 @@ input:checked + .slider:before {
     max-width: 50%;
     padding: 15px;
   }
+  h4 {
+    font-size: 2.6rem;
+    font-weight: 200;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    font-family: "Jost", sans-serif;
+    line-height: 2.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-family: "Jost", sans-serif;
+    line-height: 2.5rem;
+  }
+  .subscribebox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #email_address {
+    width: 400px;
+    height: auto;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+  }
+  .subscribebutton1 {
+    width: 400px;
+    margin: 10px;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+  }
+  .subscribebutton2 {
+    width: 400px;
+    margin: 10px;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+  }
+  .subscribebutton3 {
+    width: 180px;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: white;
+  }
+  .subscribebutton3:hover {
+    color: rgb(214, 187, 36);
+    border-bottom: 2px solid rgb(214, 187, 36);
+    margin-bottom: 49px;
+  }
 }
 @media screen and (min-width: 800px) {
   .stickynav {
@@ -860,6 +939,85 @@ input:checked + .slider:before {
     flex: 50%;
     max-width: 50%;
     padding: 15px;
+  }
+  h4 {
+    font-size: 2.6rem;
+    font-weight: 200;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    font-family: "Jost", sans-serif;
+    line-height: 2.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-family: "Jost", sans-serif;
+    line-height: 2.5rem;
+  }
+  .subscribebox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #email_address {
+    width: 400px;
+    height: auto;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+  }
+  .subscribebutton1 {
+    width: 400px;
+    margin: 10px;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+  }
+  .subscribebutton2 {
+    width: 400px;
+    margin: 10px;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+  }
+  .subscribebutton3 {
+    width: 180px;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: white;
+  }
+  .subscribebutton3:hover {
+    color: rgb(214, 187, 36);
+    border-bottom: 2px solid rgb(214, 187, 36);
+    margin-bottom: 49px;
   }
 }
 @media screen and (min-width: 1000px) {
