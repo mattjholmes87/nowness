@@ -10,7 +10,7 @@
       href="./favicon/favicomatic 2/favicon-196x196.png"
       sizes="196x196"
     />
-    <link rel="stylesheet" href="github.com/necolas/normalize.css" />
+    <link rel="stylesheet" href="https://github.com/necolas/normalize.css" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,6 +20,10 @@
     />
   </head>
   <body>
+    <form
+    method="Post"
+    action="https://form-reader.netlify.app/.netlify/functions/formReader"
+  >
     <section class="connectbanner">
       <div class="topbannerwrap">
         <div class="connectbannertext">Connect with NOWNESS</div>
@@ -356,9 +360,48 @@
       </div>
     </section>
     <div class="marginspace"></div>
-    <section class="advertbanner2"></section>
+    <section class="advertbanner2">
+      <img
+        class="genericadvert1"
+        src="./images/Britaadvert.webp"
+        alt="Generic Advert"
+      />
+    </section>
+    <div class="marginspace"></div>
     <section class="videobox"></section>
-    <section class="subscribebox"></section>
+    <section class="subscribebox">
+      <h4>SUBSCRIBE TO THE NOWNESS NEWS LETTER</h4>
+      <p>Be the first to hear about our latest releases</p>
+      <form>
+        <input
+          type="email"
+          id="email_address"
+          name="email_address"
+          placeholder="Email"
+          required
+        />
+      <div class="subscribebutton1">
+        <div class="switchcontainer">
+          <label class="switch" for="checkbox">
+            <input type="checkbox" name="recievenewsletter" id="checkbox" value="recievenewsletter" />
+            <div class="slider round"></div>
+          </label>
+        </div>
+        I would like to recieve the NOWNESS newsletter
+      </div>
+      <div class="subscribebutton2">
+        <div class="switchcontainer">
+          <label class="switch" for="checkbox2">
+            <input type="checkbox" name="recieveemails" id="checkbox2" value="recieveemails" />
+            <div class="slider round"></div>
+          </label>
+        </div>
+        I would like to recieve emails from selected NOWNESS partners featuring
+        exclusive offers
+      </div>
+      <button class="subscribebutton3" type="submit" >SUBSCRIBE</button></form>
+    </section>
+    <div class="marginspace"></div>
     <section class="mostwatched"></section>
     <section class="sharebox"></section>
     <section class="subscribebox2"></section>
