@@ -175,7 +175,7 @@ p {
 .content {
   position: absolute;
   top: 100%;
-  opacity: 0;
+  display: none;
   left: -20px;
   top: 84px;
   background: #333;
@@ -208,7 +208,7 @@ p {
 }
 [type="radio"]:checked ~ label ~ .content {
   z-index: 1;
-  opacity: 1;
+  display: initial;
 }
 
 .close-tab {
@@ -820,7 +820,6 @@ input:checked + .slider:before {
   .content {
     position: absolute;
     top: 100%;
-    opacity: 0;
     left: -20px;
     top: 102px;
     background: #333;
