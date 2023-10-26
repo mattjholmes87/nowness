@@ -1101,21 +1101,27 @@ h5 {
     padding: 10px;
   }
   .morecontainer {
-    max-width: ;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+    display: grid;
+    max-width: 1306px;
+    grid-template-columns: 190px 1fr 190px 1fr 190px 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+    margin-bottom: 60px;
   }
-  .morecontainer div {
-    align-items: flex-start;
-    justify-content: flex-start;
+  .moretolove h4 {
+    margin-bottom: 30px;
+  }
+  .morecontainer > *:nth-child(odd) {
+    grid-row-start: 1;
+    width: 150px;
+    align-self: start;
+  }
+  .morecontainer > *:nth-child(even) {
+    grid-row-start: 1;
+    padding-left: 5px;
   }
   .morecontainer img {
     width: 150px;
     height: 150px;
-  }
-  .moretolove h4 {
-    margin-bottom: 30px;
   }
 }
