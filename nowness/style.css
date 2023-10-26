@@ -652,6 +652,39 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+.morecontainer {
+  display: grid;
+  grid-template-columns: 240px;
+  grid-template-rows: repeat(6, fit-content(200px));
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 60px;
+}
+.morecontainer div {
+  margin: 20px;
+  color: black;
+  font-family: "Jost", sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+  text-align: left;
+}
+h5 {
+  color: black;
+  font-family: "Jost", sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+  text-align: left;
+}
+.morecontainer > *:nth-child(2n-1) {
+  height: 200px;
+  width: 200px;
+  align-self: center;
+  justify-self: center;
+}
+.morecontainer img {
+  width: 200px;
+  height: 200px;
+}
 
 @media screen and (max-width: 800px) and (min-width: 600px) {
   .connectbanner {
@@ -808,6 +841,23 @@ input:checked + .slider:before {
     color: rgb(214, 187, 36);
     border-bottom: 2px solid rgb(214, 187, 36);
     margin-bottom: 49px;
+  }
+  .morecontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, fit-content(200px));
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 60px;
+  }
+  .moretolove h4 {
+    margin-bottom: 30px;
+  }
+  .morecontainer > *:nth-child(odd) {
+    grid-row-start: 1;
+  }
+  .morecontainer > *:nth-child(even) {
+    grid-row-start: 2;
   }
 }
 @media screen and (min-width: 800px) {
@@ -1018,7 +1068,25 @@ input:checked + .slider:before {
     border-bottom: 2px solid rgb(214, 187, 36);
     margin-bottom: 49px;
   }
+  .morecontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, fit-content(200px));
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 60px;
+  }
+  .moretolove h4 {
+    margin-bottom: 30px;
+  }
+  .morecontainer > *:nth-child(odd) {
+    grid-row-start: 1;
+  }
+  .morecontainer > *:nth-child(even) {
+    grid-row-start: 2;
+  }
 }
+
 @media screen and (min-width: 1000px) {
   .storybox {
     display: flex;
@@ -1031,5 +1099,23 @@ input:checked + .slider:before {
     flex: 25%;
     max-width: 25%;
     padding: 10px;
+  }
+  .morecontainer {
+    max-width: ;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .morecontainer div {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .morecontainer img {
+    width: 150px;
+    height: 150px;
+  }
+  .moretolove h4 {
+    margin-bottom: 30px;
   }
 }
